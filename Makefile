@@ -1,4 +1,6 @@
+MODUL=max30100
 obj-m := max30100.o
+max30100-objs := max30100_sysfs.o
 
 KDIR ?= ../linux/
 
